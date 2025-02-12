@@ -1,5 +1,6 @@
 # hanzhang.github.io
 This is my personal website! 
+![image](https://github.com/user-attachments/assets/4c1c9229-5f50-4993-bd7b-f6f0ec8de5ce)
 
 I have created a personal website using google sites:
 https://sites.google.com/umich.edu/hans-thought-bubble/home
@@ -24,4 +25,3 @@ COMPLETED:
 - home page
     - profile picture, blurb, embedded youtube video
     - padding on sides.
-  ![image](https://github.com/user-attachments/assets/4c1c9229-5f50-4993-bd7b-f6f0ec8de5ce)

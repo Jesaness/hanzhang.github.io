@@ -18,6 +18,7 @@ This project aims to mimic the above website using HTML, CSS, and Javascript and
 **IN PROGRESS**:
 - page
     - home page
+        - embedded social media links(?)
 - color design (?)
 
 **COMPLETED**:
@@ -25,3 +26,4 @@ This project aims to mimic the above website using HTML, CSS, and Javascript and
 - home page
     - profile picture, blurb, embedded youtube video
     - padding on sides.
+    - link to my linkedIn

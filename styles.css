@@ -1,3 +1,6 @@
+@import url('homepage.css');
+@import url('responsive.css');
+
 /* General body styles */
 body {
     font-family: Arial, sans-serif;
@@ -5,6 +8,8 @@ body {
     padding: 0;
     background-color: #f0f0f0;
 }
+
+
 
 /* Header and Navigation Bar Styles */
 header {
@@ -20,9 +25,14 @@ nav {
 .navbar {
     list-style-type: none; /* Remove default list styling */
     margin: 0;
-    padding: 0;
+    padding: 10px 0;
     display: flex; /* Display the list items horizontally */
+    top: 0;
+    width: 100%; /* Ensure it spans the entire width */
+    z-index: 1000; /* Keep the navbar above other elements */
     justify-content: center; /* Center the navbar items */
+    position: fixed;
+    background-color: black;
 }
 
 .navbar li {
@@ -44,43 +54,16 @@ nav {
 
 /* Main content styles */
 h1 {
+    margin-top: 50px;
     text-align: center;
     color: #333;
 }
 
 p {
-    text-align: center;
-    color: #666;
+    text-align: left;
+    color: #121212;
+    padding-bottom: 10px;
     font-size: 16px;
-}
-
-/* For screens smaller than 600px (mobile devices) */
-@media (max-width: 600px) {
-    .navbar {
-        flex-direction: column; /* Stack the items vertically */
-    }
-
-    .navbar li {
-        margin: 10px 0; /* Add vertical space between items */
-    }
-}
-
-/* Styles for Navbar */
-.navbar {
-    list-style-type: none;
-    padding: 0;
-}
-
-.navbar li {
-    display: inline;
-    margin-right: 20px;
-    color:aliceblue;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
 }
 
 /* Active Link Styling */
@@ -96,4 +79,9 @@ html {
 /* Add padding to the left side of the unordered list */
 ul {
     padding-left: 30px;  /* Adjust this value to control the padding */
+}
+
+div{
+    padding: 0 80px;
+    padding-bottom: ;
 }

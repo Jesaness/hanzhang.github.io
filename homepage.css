@@ -1,0 +1,28 @@
+.profile {
+    display: flex;          /* Align children side by side */
+    align-items: center;    /* Vertically center the content */
+    justify-content: space-between; /* Optional: Adds space between the image and text */
+  }
+  
+  .headshot {
+    width: 500px;           /* Set a fixed width for the headshot image */
+    height: auto;           /* Maintain aspect ratio */
+  }
+  
+  .blurb {
+    max-width: 60%;         /* Limit the width of the text */
+    margin-left: 20px;      /* Add space between the image and text */
+    background-color: rgba(90, 230, 127, 0.246);
+    border-radius: 5%; 
+  }
+  
+  .blurb p {
+    margin: 0;              /* Remove default margin from paragraph */
+    font-size: 16px;        /* Adjust text size */
+    line-height: 1.5;       /* Adjust line height for readability */
+  }
+
+  #youtube {
+    text-align: center;
+  }
+  

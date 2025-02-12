@@ -1,0 +1,28 @@
+/* For screens smaller than 600px (mobile devices) */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column; /* Stack the items vertically */
+    }
+
+    .navbar li {
+        margin: 10px 0; /* Add vertical space between items */
+    }
+}
+
+/* Styles for Navbar */
+.navbar {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+    color:aliceblue;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}

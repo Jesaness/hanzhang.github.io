@@ -7,7 +7,7 @@ https://sites.google.com/umich.edu/hans-thought-bubble/home
 
 This project aims to mimic the above website using HTML, CSS, and Javascript and potentially add more features.
 
-PLANNED:
+**PLANNED**:
 - making the website responsive to different display sizes
 - pages
     - about me
@@ -15,12 +15,12 @@ PLANNED:
     - contact
 - adding projects to projects page.
 
-IN PROGRESS:
+**IN PROGRESS**:
 - page
     - home page
 - color design (?)
 
-COMPLETED:
+**COMPLETED**:
 - navigation bar
 - home page
     - profile picture, blurb, embedded youtube video
